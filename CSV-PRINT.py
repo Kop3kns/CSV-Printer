@@ -4,7 +4,7 @@ import csv
 
 time.sleep(5)
 
-with open('merge-csv.com__64908c516cccd.csv', 'r') as file:
+with open('YourCsvFile.csv', 'r') as file:
     reader = csv.reader(file)
     for row in reader:
         for id in row:
